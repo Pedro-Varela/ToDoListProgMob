@@ -17,6 +17,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Descrição da Tarefa"
-        android:inputType="text"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Definir Lembrete"
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+    <TimePicker
+        android:id="@+id/timePickerReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp" />
 </LinearLayout>

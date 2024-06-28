@@ -1,3 +1,52 @@
 <resources>
+    <!-- App Name -->
     <string name="app_name">ToDoListApp</string>
+
+    <!-- Login and Registration -->
+    <string name="login">Login</string>
+    <string name="register">Registrar</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Deseja sair da sua conta?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <!-- Task Management -->
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="edit_task">Editar Tarefa</string>
+    <string name="delete_task">Deletar Tarefa</string>
+    <string name="set_reminder">Definir Lembrete</string>
+    <string name="edit_or_delete_task">Editar ou Deletar Tarefa</string>
+    <string name="add">Adicionar</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+
+    <!-- Task Views -->
+    <string name="view_pending_tasks">Ver Tarefas Pendentes</string>
+    <string name="view_completed_tasks">Ver Tarefas Concluidas</string>
+    <string name="view_all_tasks">Ver Todas Tarefas</string>
+
+    <!-- Task Details -->
+    <string name="task_title">Titulo da Tarefa</string>
+    <string name="task_description">Descrição da Tarefa</string>
+    <string name="reminder_time">Tempo do Lembrete</string>
+
+    <!-- Notifications -->
+    <string name="notification_task_reminder">Lembrete da Tarefa</string>
+    <string name="notification_title">Lembrete Para %1$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_title">Titulo não pode ser vazio</string>
+    <string name="error_loading_tasks">Erro ao carregar tarefas</string>
+    <string name="error_login_failed">Login falhou</string>
+    <string name="error_generating_task_id">Erro ao gerar ID da tarefa</string>
+
+    <!-- Feedback Messages -->
+    <string name="task_added_success">Tarefa Adicionada</string>
+    <string name="task_update_success">Tarefa Atualizada</string>
+    <string name="task_delete_success">Tarefa Excluida</string>
+    <string name="task_add_error">Erro ao adicionar tarefa</string>
+    <string name="task_update_error">Erro ao atualizar</string>
+    <string name="task_delete_error">Erro ao deletar</string>
+    <string name="reminder_set_success">Lembrete Definido</string>
 </resources>
