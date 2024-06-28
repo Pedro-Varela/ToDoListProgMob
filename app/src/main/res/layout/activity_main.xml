@@ -3,10 +3,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:id="@+id/linearLayoutFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/btnViewAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todas"
+            android:drawableLeft="@drawable/ic_view_list"
+            android:drawablePadding="8dp" />
+
+        <Button
+            android:id="@+id/btnViewPending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendentes"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_pending"
+            android:drawablePadding="8dp" />
+
+        <Button
+            android:id="@+id/btnViewCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Concluídas"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_done"
+            android:drawablePadding="8dp" />
+    </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewTasks"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/linearLayoutFilters"
         android:padding="16dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -17,4 +53,13 @@
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
         android:src="@drawable/baseline_add_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_logout" />
 </RelativeLayout>

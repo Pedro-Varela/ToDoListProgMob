@@ -9,6 +9,7 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Title"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -16,12 +17,12 @@
         android:id="@+id/textViewDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp" />
+        android:text="Description"
+        android:textSize="14sp" />
 
     <CheckBox
         android:id="@+id/checkBoxCompleted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="Concluída" />
 </LinearLayout>
